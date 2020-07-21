@@ -1,0 +1,17 @@
+<%- include('header'); -%>
+
+<form class="form-signin" action="/home" method="post">
+
+    <img class="mb-4" src="/images/login.jpg" alt="" width="72" height="72">
+    <!-- <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1> -->
+     <input type="text" name="account" class="form-control" placeholder="Account type" value="" autocomplete="off">
+    <input type="text" name="userName"  class="form-control" placeholder="Email address" required autofocus autocomplete="off">
+
+    <input type="text" name="password" class="form-control" placeholder="Password" required autocomplete="off">
+
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Save</button>
+    <p class="mt-5 mb-3 text-muted">&copy; By Harish</p>
+
+
+</form>
+<%- include('footer'); -%>
